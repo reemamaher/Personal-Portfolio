@@ -1284,3 +1284,20 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* Style the Send Message button */
+form button[type="submit"] {
+  background-color: #888; /* Set the default gray color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+  margin-top: 10px; /* Add space between message and button */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the Send Message button on hover */
+form button[type="submit"]:hover {
+  background-color: #0563bb; /* Set the hover color */
+}
